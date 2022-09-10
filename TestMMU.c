@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <time.h>
 
-#include "MMU.h"
+#include "MMU_usr.h"
 
 int main(int argc, char **argv)
 {
