@@ -1,5 +1,6 @@
 //Memory Mapping Utility
 
+#include "MMU_usr.h"
 #include <stdlib.h>
 #include <stdbool.h>
 #include <stdint.h>
