@@ -1,4 +1,4 @@
-obj-m += MMU.o
+obj-m += MMU_mod.o
 
 KDIR = /lib/modules/$(shell uname -r)/build
 
