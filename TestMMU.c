@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	printf("Var value: %d\n", number);
 
 	uint64_t phys_addr = mmu_get_phys_from_virt(&number);
-	printf("Var physical addr: %lx\n", phys_addr);
+	printf("Var physical addr: 0x%lx\n", phys_addr);
 
 	void *pvoid = mmu_get_virt_from_phys(phys_addr);
 	printf("Var virtual addr: %p\n", pvoid);
