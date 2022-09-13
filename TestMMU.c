@@ -20,21 +20,21 @@ int main(int argc, char **argv)
 
 	printf("\nAnalysis:\n\n");
 
-	uint32_t number = 200000;
-	printf("UINT32 value: %d\n", number);
+	uint32_t number = 69420;
+	printf("Var value: %d\n", number);
 
 	uint64_t phys_addr = mmu_get_phys_from_virt(&number);
-	printf("UINT32 physical addr: %lx\n", phys_addr);
+	printf("Var physical addr: %lx\n", phys_addr);
 
 	void *pvoid = mmu_get_virt_from_phys(phys_addr);
-	printf("UINT32 virtual addr: %p\n", pvoid);
+	printf("Var virtual addr: %p\n", pvoid);
 
 	printf("\nDebug:\n\n");
 	
-	printf("UINT32 virtual addr: %p\n", &number);
+	printf("Var virtual addr: %p\n", &number);
 
 	uint32_t value = *((uint32_t*) pvoid);
-	printf("UINT32 value: %d\n", value);
+	printf("Var value: %d\n", value);
 
 	printf("\n");
 	printf("Terminated\n");
