@@ -1,5 +1,5 @@
 # Linux_Modules_64bit
-General Purpose Linux Modules.
+General Purpose Modules for 64bit GNU-Linux systems.
 
 Here I post Linux Kernel Modules that I made. This specific repository is meant for Linux 64bit Kernel, though it should run on Linux 32bit Kernel as well.
 
